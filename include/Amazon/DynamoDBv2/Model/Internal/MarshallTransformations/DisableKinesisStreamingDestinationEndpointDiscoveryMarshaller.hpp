@@ -1,0 +1,5 @@
+#pragma once
+#include "Amazon/DynamoDBv2/Model/Internal/MarshallTransformations/zzzz__DisableKinesisStreamingDestinationEndpointDiscoveryMarshaller_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
+#include "Amazon/DynamoDBv2/Model/Internal/MarshallTransformations/zzzz__DisableKinesisStreamingDestinationEndpointDiscoveryMarshaller_impl.hpp"
+#endif

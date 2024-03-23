@@ -1,0 +1,78 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+CORDL_MODULE_EXPORT(UpdateGlobalSecondaryIndexActionMarshaller)
+namespace Amazon::DynamoDBv2::Model {
+class UpdateGlobalSecondaryIndexAction;
+}
+namespace Amazon::Runtime::Internal::Transform {
+template <typename R, typename T> class IRequestMarshaller_2;
+}
+namespace Amazon::Runtime::Internal::Transform {
+class JsonMarshallerContext;
+}
+// Forward declare root types
+namespace Amazon::DynamoDBv2::Model::Internal::MarshallTransformations {
+class UpdateGlobalSecondaryIndexActionMarshaller;
+}
+// Write type traits
+MARK_REF_PTR_T(::Amazon::DynamoDBv2::Model::Internal::MarshallTransformations::UpdateGlobalSecondaryIndexActionMarshaller);
+// Type: Amazon.DynamoDBv2.Model.Internal.MarshallTransformations::UpdateGlobalSecondaryIndexActionMarshaller
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+namespace Amazon::DynamoDBv2::Model::Internal::MarshallTransformations {
+// Is value type: false
+// CS Name: ::Amazon.DynamoDBv2.Model.Internal.MarshallTransformations::UpdateGlobalSecondaryIndexActionMarshaller*
+class CORDL_TYPE UpdateGlobalSecondaryIndexActionMarshaller : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field Instance, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Amazon::DynamoDBv2::Model::Internal::MarshallTransformations::UpdateGlobalSecondaryIndexActionMarshaller* Instance;
+
+  /// @brief Convert operator to
+  /// "::Amazon::Runtime::Internal::Transform::IRequestMarshaller_2<::Amazon::DynamoDBv2::Model::UpdateGlobalSecondaryIndexAction*,::Amazon::Runtime::Internal::Transform::JsonMarshallerContext*>"
+  constexpr operator ::Amazon::Runtime::Internal::Transform::IRequestMarshaller_2<::Amazon::DynamoDBv2::Model::UpdateGlobalSecondaryIndexAction*,
+                                                                                  ::Amazon::Runtime::Internal::Transform::JsonMarshallerContext*>*() noexcept;
+
+  /// @brief Method Marshall, addr 0x173a42c, size 0x130, virtual true, abstract: false, final true
+  inline void Marshall(::Amazon::DynamoDBv2::Model::UpdateGlobalSecondaryIndexAction* requestObject, ::Amazon::Runtime::Internal::Transform::JsonMarshallerContext* context);
+
+  static inline ::Amazon::DynamoDBv2::Model::Internal::MarshallTransformations::UpdateGlobalSecondaryIndexActionMarshaller* New_ctor();
+
+  /// @brief Method .ctor, addr 0x173a55c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::Amazon::DynamoDBv2::Model::Internal::MarshallTransformations::UpdateGlobalSecondaryIndexActionMarshaller* getStaticF_Instance();
+
+  /// @brief Convert to
+  /// "::Amazon::Runtime::Internal::Transform::IRequestMarshaller_2<::Amazon::DynamoDBv2::Model::UpdateGlobalSecondaryIndexAction*,::Amazon::Runtime::Internal::Transform::JsonMarshallerContext*>"
+  constexpr ::Amazon::Runtime::Internal::Transform::IRequestMarshaller_2<::Amazon::DynamoDBv2::Model::UpdateGlobalSecondaryIndexAction*,
+                                                                         ::Amazon::Runtime::Internal::Transform::JsonMarshallerContext*>*
+  i___Amazon__Runtime__Internal__Transform__IRequestMarshaller_2___Amazon__DynamoDBv2__Model__UpdateGlobalSecondaryIndexAction____Amazon__Runtime__Internal__Transform__JsonMarshallerContext__() noexcept;
+
+  static inline void setStaticF_Instance(::Amazon::DynamoDBv2::Model::Internal::MarshallTransformations::UpdateGlobalSecondaryIndexActionMarshaller* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UpdateGlobalSecondaryIndexActionMarshaller();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "UpdateGlobalSecondaryIndexActionMarshaller", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UpdateGlobalSecondaryIndexActionMarshaller(UpdateGlobalSecondaryIndexActionMarshaller&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "UpdateGlobalSecondaryIndexActionMarshaller", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UpdateGlobalSecondaryIndexActionMarshaller(UpdateGlobalSecondaryIndexActionMarshaller const&) = delete;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Amazon::DynamoDBv2::Model::Internal::MarshallTransformations::UpdateGlobalSecondaryIndexActionMarshaller, 0x10>, "Size mismatch!");
+
+} // namespace Amazon::DynamoDBv2::Model::Internal::MarshallTransformations
+NEED_NO_BOX(::Amazon::DynamoDBv2::Model::Internal::MarshallTransformations::UpdateGlobalSecondaryIndexActionMarshaller);
+DEFINE_IL2CPP_ARG_TYPE(::Amazon::DynamoDBv2::Model::Internal::MarshallTransformations::UpdateGlobalSecondaryIndexActionMarshaller*, "Amazon.DynamoDBv2.Model.Internal.MarshallTransformations",
+                       "UpdateGlobalSecondaryIndexActionMarshaller");

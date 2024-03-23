@@ -1,0 +1,5 @@
+#pragma once
+#include "Amazon/Lambda/Model/zzzz__InvalidCodeSignatureException_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
+#include "Amazon/Lambda/Model/zzzz__InvalidCodeSignatureException_impl.hpp"
+#endif

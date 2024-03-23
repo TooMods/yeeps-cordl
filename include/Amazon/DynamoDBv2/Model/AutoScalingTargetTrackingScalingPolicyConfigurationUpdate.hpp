@@ -1,0 +1,5 @@
+#pragma once
+#include "Amazon/DynamoDBv2/Model/zzzz__AutoScalingTargetTrackingScalingPolicyConfigurationUpdate_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
+#include "Amazon/DynamoDBv2/Model/zzzz__AutoScalingTargetTrackingScalingPolicyConfigurationUpdate_impl.hpp"
+#endif

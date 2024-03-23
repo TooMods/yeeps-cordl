@@ -1,0 +1,5 @@
+#pragma once
+#include "Unity/Services/Vivox/zzzz__SWIGTYPE_p_f_p_void_p_q_const__char_p_q_const__char_p_vx_before_recv_audio_mixed_participant_data_t_size_t__void_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
+#include "Unity/Services/Vivox/zzzz__SWIGTYPE_p_f_p_void_p_q_const__char_p_q_const__char_p_vx_before_recv_audio_mixed_participant_data_t_size_t__void_impl.hpp"
+#endif

@@ -1,0 +1,5 @@
+#pragma once
+#include "Unity/Services/Vivox/zzzz__InitializationOptionsExtensions_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
+#include "Unity/Services/Vivox/zzzz__InitializationOptionsExtensions_impl.hpp"
+#endif

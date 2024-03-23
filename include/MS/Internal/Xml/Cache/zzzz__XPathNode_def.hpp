@@ -1,0 +1,173 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(XPathNode)
+namespace MS::Internal::Xml::Cache {
+class XPathNodeInfoAtom;
+}
+namespace MS::Internal::Xml::Cache {
+class XPathNodePageInfo;
+}
+namespace System::Xml::XPath {
+class XPathDocument;
+}
+namespace System::Xml::XPath {
+struct XPathNodeType;
+}
+// Forward declare root types
+namespace MS::Internal::Xml::Cache {
+struct XPathNode;
+}
+// Write type traits
+MARK_VAL_T(::MS::Internal::Xml::Cache::XPathNode);
+// Type: MS.Internal.Xml.Cache::XPathNode
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace MS::Internal::Xml::Cache {
+// Is value type: true
+// CS Name: ::MS.Internal.Xml.Cache::XPathNode
+struct CORDL_TYPE XPathNode {
+public:
+  // Declarations
+  __declspec(property(get = get_CollapsedLinePosition)) int32_t CollapsedLinePosition;
+
+  __declspec(property(get = get_Document))::System::Xml::XPath::XPathDocument* Document;
+
+  __declspec(property(get = get_HasCollapsedText)) bool HasCollapsedText;
+
+  __declspec(property(get = get_HasNamespaceDecls)) bool HasNamespaceDecls;
+
+  __declspec(property(get = get_HasSibling)) bool HasSibling;
+
+  __declspec(property(get = get_IsText)) bool IsText;
+
+  __declspec(property(get = get_IsXmlNamespaceNode)) bool IsXmlNamespaceNode;
+
+  __declspec(property(get = get_LineNumber)) int32_t LineNumber;
+
+  __declspec(property(get = get_LinePosition)) int32_t LinePosition;
+
+  __declspec(property(get = get_LocalName))::StringW LocalName;
+
+  __declspec(property(get = get_NamespaceUri))::StringW NamespaceUri;
+
+  __declspec(property(get = get_NodeType))::System::Xml::XPath::XPathNodeType NodeType;
+
+  __declspec(property(get = get_PageInfo))::MS::Internal::Xml::Cache::XPathNodePageInfo* PageInfo;
+
+  __declspec(property(get = get_Prefix))::StringW Prefix;
+
+  __declspec(property(get = get_Value))::StringW Value;
+
+  /// @brief Method GetParent, addr 0x1b3295c, size 0x24, virtual false, abstract: false, final false
+  inline int32_t GetParent(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNode);
+
+  /// @brief Method GetSibling, addr 0x1b32830, size 0x24, virtual false, abstract: false, final false
+  inline int32_t GetSibling(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNode);
+
+  /// @brief Method get_CollapsedLinePosition, addr 0x1b32c54, size 0x2c, virtual false, abstract: false, final false
+  inline int32_t get_CollapsedLinePosition();
+
+  /// @brief Method get_Document, addr 0x1b3257c, size 0x1c, virtual false, abstract: false, final false
+  inline ::System::Xml::XPath::XPathDocument* get_Document();
+
+  /// @brief Method get_HasCollapsedText, addr 0x1b32cdc, size 0xc, virtual false, abstract: false, final false
+  inline bool get_HasCollapsedText();
+
+  /// @brief Method get_HasNamespaceDecls, addr 0x1b32d48, size 0xc, virtual false, abstract: false, final false
+  inline bool get_HasNamespaceDecls();
+
+  /// @brief Method get_HasSibling, addr 0x1b32ccc, size 0x10, virtual false, abstract: false, final false
+  inline bool get_HasSibling();
+
+  /// @brief Method get_IsText, addr 0x1b32ce8, size 0x60, virtual false, abstract: false, final false
+  inline bool get_IsText();
+
+  /// @brief Method get_IsXmlNamespaceNode, addr 0x1b327a8, size 0x88, virtual false, abstract: false, final false
+  inline bool get_IsXmlNamespaceNode();
+
+  /// @brief Method get_LineNumber, addr 0x1b32b88, size 0x28, virtual false, abstract: false, final false
+  inline int32_t get_LineNumber();
+
+  /// @brief Method get_LinePosition, addr 0x1b32c80, size 0x24, virtual false, abstract: false, final false
+  inline int32_t get_LinePosition();
+
+  /// @brief Method get_LocalName, addr 0x1b3246c, size 0x1c, virtual false, abstract: false, final false
+  inline ::StringW get_LocalName();
+
+  /// @brief Method get_NamespaceUri, addr 0x1b324c4, size 0x1c, virtual false, abstract: false, final false
+  inline ::StringW get_NamespaceUri();
+
+  /// @brief Method get_NodeType, addr 0x1b32424, size 0xc, virtual false, abstract: false, final false
+  inline ::System::Xml::XPath::XPathNodeType get_NodeType();
+
+  /// @brief Method get_PageInfo, addr 0x1b32cb0, size 0x1c, virtual false, abstract: false, final false
+  inline ::MS::Internal::Xml::Cache::XPathNodePageInfo* get_PageInfo();
+
+  /// @brief Method get_Prefix, addr 0x1b3251c, size 0x1c, virtual false, abstract: false, final false
+  inline ::StringW get_Prefix();
+
+  /// @brief Method get_Value, addr 0x1b32d54, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Value();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XPathNode();
+
+  // Ctor Parameters [CppParam { name: "_info", ty: "::MS::Internal::Xml::Cache::XPathNodeInfoAtom*", modifiers: "", def_value: None }, CppParam { name: "_idxSibling", ty: "uint16_t", modifiers: "",
+  // def_value: None }, CppParam { name: "_idxParent", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "_idxSimilar", ty: "uint16_t", modifiers: "", def_value: None }, CppParam {
+  // name: "_posOffset", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "_props", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "::StringW",
+  // modifiers: "", def_value: None }]
+  constexpr XPathNode(::MS::Internal::Xml::Cache::XPathNodeInfoAtom* _info, uint16_t _idxSibling, uint16_t _idxParent, uint16_t _idxSimilar, uint16_t _posOffset, uint32_t _props,
+                      ::StringW _value) noexcept;
+
+  /// @brief Field _info, offset: 0x0, size: 0x8, def value: None
+  ::MS::Internal::Xml::Cache::XPathNodeInfoAtom* _info;
+
+  /// @brief Field _idxSibling, offset: 0x8, size: 0x2, def value: None
+  uint16_t _idxSibling;
+
+  /// @brief Field _idxParent, offset: 0xa, size: 0x2, def value: None
+  uint16_t _idxParent;
+
+  /// @brief Field _idxSimilar, offset: 0xc, size: 0x2, def value: None
+  uint16_t _idxSimilar;
+
+  /// @brief Field _posOffset, offset: 0xe, size: 0x2, def value: None
+  uint16_t _posOffset;
+
+  /// @brief Field _props, offset: 0x10, size: 0x4, def value: None
+  uint32_t _props;
+
+  /// @brief Field _value, offset: 0x18, size: 0x8, def value: None
+  ::StringW _value;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::Cache::XPathNode, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNode, _info) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNode, _idxSibling) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNode, _idxParent) == 0xa, "Offset mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNode, _idxSimilar) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNode, _posOffset) == 0xe, "Offset mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNode, _props) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::MS::Internal::Xml::Cache::XPathNode, _value) == 0x18, "Offset mismatch!");
+
+} // namespace MS::Internal::Xml::Cache
+DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::Cache::XPathNode, "MS.Internal.Xml.Cache", "XPathNode");

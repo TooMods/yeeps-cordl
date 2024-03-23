@@ -1,0 +1,5 @@
+#pragma once
+#include "Unity/Services/Vivox/zzzz__vx_req_connector_mute_local_mic_t_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
+#include "Unity/Services/Vivox/zzzz__vx_req_connector_mute_local_mic_t_impl.hpp"
+#endif

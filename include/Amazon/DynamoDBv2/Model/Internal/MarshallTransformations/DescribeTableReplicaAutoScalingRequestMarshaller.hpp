@@ -1,0 +1,5 @@
+#pragma once
+#include "Amazon/DynamoDBv2/Model/Internal/MarshallTransformations/zzzz__DescribeTableReplicaAutoScalingRequestMarshaller_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
+#include "Amazon/DynamoDBv2/Model/Internal/MarshallTransformations/zzzz__DescribeTableReplicaAutoScalingRequestMarshaller_impl.hpp"
+#endif

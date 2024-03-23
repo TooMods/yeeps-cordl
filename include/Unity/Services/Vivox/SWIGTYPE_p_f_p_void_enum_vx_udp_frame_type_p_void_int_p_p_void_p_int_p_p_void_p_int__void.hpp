@@ -1,0 +1,5 @@
+#pragma once
+#include "Unity/Services/Vivox/zzzz__SWIGTYPE_p_f_p_void_enum_vx_udp_frame_type_p_void_int_p_p_void_p_int_p_p_void_p_int__void_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
+#include "Unity/Services/Vivox/zzzz__SWIGTYPE_p_f_p_void_enum_vx_udp_frame_type_p_void_int_p_p_void_p_int_p_p_void_p_int__void_impl.hpp"
+#endif

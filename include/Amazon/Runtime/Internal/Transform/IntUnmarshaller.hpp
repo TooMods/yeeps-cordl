@@ -1,0 +1,5 @@
+#pragma once
+#include "Amazon/Runtime/Internal/Transform/zzzz__IntUnmarshaller_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
+#include "Amazon/Runtime/Internal/Transform/zzzz__IntUnmarshaller_impl.hpp"
+#endif

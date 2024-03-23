@@ -1,0 +1,107 @@
+#pragma once
+#include "Amazon/Runtime/zzzz__AmazonWebServiceResponse_impl.hpp"
+#include "Amazon/DynamoDBv2/Model/zzzz__BatchExecuteStatementResponse_def.hpp"
+#include "Amazon/DynamoDBv2/Model/zzzz__BatchStatementResponse_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+//  Writing Method size for method: ::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse.get_Responses
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Amazon::DynamoDBv2::Model::BatchStatementResponse*>* (
+    ::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::*)()>(&::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::get_Responses)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x122682c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse*>::get(), "get_Responses",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse.set_Responses
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::*)(
+    ::System::Collections::Generic::List_1<::Amazon::DynamoDBv2::Model::BatchStatementResponse*>*)>(&::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::set_Responses)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x1226834;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse*>::get(), "set_Responses", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Amazon::DynamoDBv2::Model::BatchStatementResponse*>*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse.IsSetResponses
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::*)()>(
+    &::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::IsSetResponses)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x122683c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse*>::get(), "IsSetResponses",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::*)()>(
+    &::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::_ctor)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x1226890;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Collections::Generic::List_1<::Amazon::DynamoDBv2::Model::BatchStatementResponse*>*& Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::__cordl_internal_get__responses() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____responses;
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Amazon::DynamoDBv2::Model::BatchStatementResponse*>*> const&
+Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::__cordl_internal_get__responses() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____responses;
+}
+constexpr void
+Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::__cordl_internal_set__responses(::System::Collections::Generic::List_1<::Amazon::DynamoDBv2::Model::BatchStatementResponse*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____responses)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline ::System::Collections::Generic::List_1<::Amazon::DynamoDBv2::Model::BatchStatementResponse*>* Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::get_Responses() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse*>::get(),
+                                                                             "get_Responses", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::Amazon::DynamoDBv2::Model::BatchStatementResponse*>*, false>(this, ___internal_method);
+}
+inline void Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::set_Responses(::System::Collections::Generic::List_1<::Amazon::DynamoDBv2::Model::BatchStatementResponse*>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse*>::get(), "set_Responses", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Amazon::DynamoDBv2::Model::BatchStatementResponse*>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::IsSetResponses() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse*>::get(),
+                                                                             "IsSetResponses", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse* Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse*>());
+}
+inline void Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+// Ctor Parameters []
+constexpr ::Amazon::DynamoDBv2::Model::BatchExecuteStatementResponse::BatchExecuteStatementResponse() {}

@@ -1,0 +1,75 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "Amazon/Runtime/zzzz__AmazonWebServiceResponse_def.hpp"
+CORDL_MODULE_EXPORT(CreateCodeSigningConfigResponse)
+namespace Amazon::Lambda::Model {
+class CodeSigningConfig;
+}
+// Forward declare root types
+namespace Amazon::Lambda::Model {
+class CreateCodeSigningConfigResponse;
+}
+// Write type traits
+MARK_REF_PTR_T(::Amazon::Lambda::Model::CreateCodeSigningConfigResponse);
+// Type: Amazon.Lambda.Model::CreateCodeSigningConfigResponse
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace Amazon::Lambda::Model {
+// Is value type: false
+// CS Name: ::Amazon.Lambda.Model::CreateCodeSigningConfigResponse*
+class CORDL_TYPE CreateCodeSigningConfigResponse : public ::Amazon::Runtime::AmazonWebServiceResponse {
+public:
+  // Declarations
+  __declspec(property(get = get_CodeSigningConfig, put = set_CodeSigningConfig))::Amazon::Lambda::Model::CodeSigningConfig* CodeSigningConfig;
+
+  /// @brief Field _codeSigningConfig, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__codeSigningConfig, put = __cordl_internal_set__codeSigningConfig))::Amazon::Lambda::Model::CodeSigningConfig* _codeSigningConfig;
+
+  /// @brief Method IsSetCodeSigningConfig, addr 0x2bc4b84, size 0x10, virtual false, abstract: false, final false
+  inline bool IsSetCodeSigningConfig();
+
+  static inline ::Amazon::Lambda::Model::CreateCodeSigningConfigResponse* New_ctor();
+
+  constexpr ::Amazon::Lambda::Model::CodeSigningConfig*& __cordl_internal_get__codeSigningConfig();
+
+  constexpr ::cordl_internals::to_const_pointer<::Amazon::Lambda::Model::CodeSigningConfig*> const& __cordl_internal_get__codeSigningConfig() const;
+
+  constexpr void __cordl_internal_set__codeSigningConfig(::Amazon::Lambda::Model::CodeSigningConfig* value);
+
+  /// @brief Method .ctor, addr 0x2bc4b94, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_CodeSigningConfig, addr 0x2bc4b74, size 0x8, virtual false, abstract: false, final false
+  inline ::Amazon::Lambda::Model::CodeSigningConfig* get_CodeSigningConfig();
+
+  /// @brief Method set_CodeSigningConfig, addr 0x2bc4b7c, size 0x8, virtual false, abstract: false, final false
+  inline void set_CodeSigningConfig(::Amazon::Lambda::Model::CodeSigningConfig* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CreateCodeSigningConfigResponse();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "CreateCodeSigningConfigResponse", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  CreateCodeSigningConfigResponse(CreateCodeSigningConfigResponse&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "CreateCodeSigningConfigResponse", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  CreateCodeSigningConfigResponse(CreateCodeSigningConfigResponse const&) = delete;
+
+  /// @brief Field _codeSigningConfig, offset: 0x28, size: 0x8, def value: None
+  ::Amazon::Lambda::Model::CodeSigningConfig* ____codeSigningConfig;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Amazon::Lambda::Model::CreateCodeSigningConfigResponse, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::Amazon::Lambda::Model::CreateCodeSigningConfigResponse, ____codeSigningConfig) == 0x28, "Offset mismatch!");
+
+} // namespace Amazon::Lambda::Model
+NEED_NO_BOX(::Amazon::Lambda::Model::CreateCodeSigningConfigResponse);
+DEFINE_IL2CPP_ARG_TYPE(::Amazon::Lambda::Model::CreateCodeSigningConfigResponse*, "Amazon.Lambda.Model", "CreateCodeSigningConfigResponse");

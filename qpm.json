@@ -1,0 +1,40 @@
+{
+  "version": "0.3.0",
+  "sharedDir": "shared",
+  "dependenciesDir": "extern",
+  "info": {
+    "name": "yeeps-cordl",
+    "id": "yeeps-cordl",
+    "version": "2.0.0",
+    "url": "https://github.com/RedBrumbler/yeeps-cordl",
+    "additionalData": {
+      "cmake": false,
+      "headersOnly": true,
+      "compileOptions": {
+        "includePaths": ["include"],
+        "cppFeatures": [],
+        "cppFlags": ["-DNEED_UNSAFE_CSHARP", "-fdeclspec", "-DUNITY_2021", "-DHAS_CODEGEN"]
+      }
+    }
+  },
+  "workspace": {
+    "scripts": {
+      "build": [
+        "cmake -G Ninja -DCMAKE_BUILD_TYPE=RelWithDebInfo -B ./build -S .",
+        "cmake --build ./build"
+      ]
+    }
+  },
+  "dependencies": [
+    {
+      "id": "beatsaber-hook",
+      "versionRange": "^5.1.2",
+      "additionalData": {}
+    },
+    {
+      "id": "libil2cpp",
+      "versionRange": "^0.3.1",
+      "additionalData": {}
+    }
+  ]
+}

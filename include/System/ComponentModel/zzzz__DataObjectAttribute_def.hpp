@@ -1,0 +1,105 @@
+#pragma once
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Attribute_def.hpp"
+#include <cstdint>
+CORDL_MODULE_EXPORT(DataObjectAttribute)
+namespace System {
+class Object;
+}
+// Forward declare root types
+namespace System::ComponentModel {
+class DataObjectAttribute;
+}
+// Write type traits
+MARK_REF_PTR_T(::System::ComponentModel::DataObjectAttribute);
+// Type: System.ComponentModel::DataObjectAttribute
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+namespace System::ComponentModel {
+// Is value type: false
+// CS Name: ::System.ComponentModel::DataObjectAttribute*
+class CORDL_TYPE DataObjectAttribute : public ::System::Attribute {
+public:
+  // Declarations
+  /// @brief Field DataObject, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_DataObject, put = setStaticF_DataObject))::System::ComponentModel::DataObjectAttribute* DataObject;
+
+  /// @brief Field Default, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::System::ComponentModel::DataObjectAttribute* Default;
+
+  __declspec(property(get = get_IsDataObject)) bool IsDataObject;
+
+  /// @brief Field NonDataObject, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_NonDataObject, put = setStaticF_NonDataObject))::System::ComponentModel::DataObjectAttribute* NonDataObject;
+
+  /// @brief Field <IsDataObject>k__BackingField, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get__IsDataObject_k__BackingField, put = __cordl_internal_set__IsDataObject_k__BackingField)) bool _IsDataObject_k__BackingField;
+
+  /// @brief Method Equals, addr 0x1af37d4, size 0x98, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method GetHashCode, addr 0x1af386c, size 0x20, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method IsDefaultAttribute, addr 0x1af388c, size 0x68, virtual true, abstract: false, final false
+  inline bool IsDefaultAttribute();
+
+  static inline ::System::ComponentModel::DataObjectAttribute* New_ctor();
+
+  static inline ::System::ComponentModel::DataObjectAttribute* New_ctor(bool isDataObject);
+
+  constexpr bool const& __cordl_internal_get__IsDataObject_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__IsDataObject_k__BackingField();
+
+  constexpr void __cordl_internal_set__IsDataObject_k__BackingField(bool value);
+
+  /// @brief Method .ctor, addr 0x1af3784, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x1af37a4, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(bool isDataObject);
+
+  static inline ::System::ComponentModel::DataObjectAttribute* getStaticF_DataObject();
+
+  static inline ::System::ComponentModel::DataObjectAttribute* getStaticF_Default();
+
+  static inline ::System::ComponentModel::DataObjectAttribute* getStaticF_NonDataObject();
+
+  /// @brief Method get_IsDataObject, addr 0x1af37cc, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsDataObject();
+
+  static inline void setStaticF_DataObject(::System::ComponentModel::DataObjectAttribute* value);
+
+  static inline void setStaticF_Default(::System::ComponentModel::DataObjectAttribute* value);
+
+  static inline void setStaticF_NonDataObject(::System::ComponentModel::DataObjectAttribute* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DataObjectAttribute();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "DataObjectAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  DataObjectAttribute(DataObjectAttribute&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "DataObjectAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  DataObjectAttribute(DataObjectAttribute const&) = delete;
+
+  /// @brief Field <IsDataObject>k__BackingField, offset: 0x10, size: 0x1, def value: None
+  bool ____IsDataObject_k__BackingField;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::System::ComponentModel::DataObjectAttribute, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::System::ComponentModel::DataObjectAttribute, ____IsDataObject_k__BackingField) == 0x10, "Offset mismatch!");
+
+} // namespace System::ComponentModel
+NEED_NO_BOX(::System::ComponentModel::DataObjectAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::DataObjectAttribute*, "System.ComponentModel", "DataObjectAttribute");

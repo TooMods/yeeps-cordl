@@ -1,0 +1,5 @@
+#pragma once
+#include "Amazon/Auth/AccessControlPolicy/ActionIdentifiers/zzzz__IdentityandAccessManagementActionIdentifiers_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
+#include "Amazon/Auth/AccessControlPolicy/ActionIdentifiers/zzzz__IdentityandAccessManagementActionIdentifiers_impl.hpp"
+#endif

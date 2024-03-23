@@ -39,16 +39,16 @@ public:
 
   static inline ::Mono::Math::Prime::Generator::PrimeGeneratorBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28a72b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1cd2f14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Confidence, addr 0x28a722c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Confidence, addr 0x1cd2e90, size 0x8, virtual true, abstract: false, final false
   inline ::Mono::Math::Prime::ConfidenceFactor get_Confidence();
 
-  /// @brief Method get_PrimalityTest, addr 0x28a7234, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_PrimalityTest, addr 0x1cd2e98, size 0x74, virtual true, abstract: false, final false
   inline ::Mono::Math::Prime::PrimalityTest* get_PrimalityTest();
 
-  /// @brief Method get_TrialDivisionBounds, addr 0x28a72a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TrialDivisionBounds, addr 0x1cd2f0c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_TrialDivisionBounds();
 
 protected:

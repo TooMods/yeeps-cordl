@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (*)(int32_t)>(&::System::Text::StringBuilderCache::Acquire)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x133213c;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x1e17720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::System::Text::StringBuilderCache::Release)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x1336200;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x1e177f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Text::StringBuilder*)>(&::System::Text::StringBuilderCache::GetStringAndRelease)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x1332204;
+  constexpr static std::size_t addrs = 0x1e17870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

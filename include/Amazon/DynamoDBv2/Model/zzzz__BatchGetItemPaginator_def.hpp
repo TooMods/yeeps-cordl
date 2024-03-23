@@ -24,7 +24,7 @@ namespace Amazon::DynamoDBv2::Model {
 class KeysAndAttributes;
 }
 namespace Amazon::DynamoDBv2::Model {
-class __BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6;
+class __BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6;
 }
 namespace Amazon::DynamoDBv2 {
 class IAmazonDynamoDB;
@@ -82,21 +82,21 @@ namespace Amazon::DynamoDBv2::Model {
 class BatchGetItemPaginator;
 }
 namespace Amazon::DynamoDBv2::Model {
-class __BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6;
+class __BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6;
 }
 // Write type traits
 MARK_REF_PTR_T(::Amazon::DynamoDBv2::Model::BatchGetItemPaginator);
-MARK_REF_PTR_T(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6);
+MARK_REF_PTR_T(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6);
 // Type: ::<Amazon-Runtime-IPaginator<Amazon-DynamoDBv2-Model-BatchGetItemResponse>-PaginateAsync>d__6
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Amazon::DynamoDBv2::Model {
 // Is value type: false
 // CS Name: ::BatchGetItemPaginator::<Amazon-Runtime-IPaginator<Amazon-DynamoDBv2-Model-BatchGetItemResponse>-PaginateAsync>d__6*
-class CORDL_TYPE __BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6 : public ::System::Object {
+class CORDL_TYPE __BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IAsyncEnumerator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__get_Current))::Amazon::DynamoDBv2::Model::BatchGetItemResponse*
-      System_Collections_Generic_IAsyncEnumerator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__Current;
+  __declspec(property(get = System_Collections_Generic_IAsyncEnumerator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__get_Current))::Amazon::DynamoDBv2::Model::
+      BatchGetItemResponse* System_Collections_Generic_IAsyncEnumerator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -117,14 +117,13 @@ public:
   __declspec(property(get = __cordl_internal_get___t__builder, put = __cordl_internal_set___t__builder))::System::Runtime::CompilerServices::AsyncIteratorMethodBuilder __t__builder;
 
   /// @brief Field <>u__1, offset 0xa0, size 0x10
-  __declspec(property(get = __cordl_internal_get___u__1,
-                      put = __cordl_internal_set___u__1))::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::Amazon::DynamoDBv2::Model::BatchGetItemResponse*>
-      __u__1;
+  __declspec(
+      property(get = __cordl_internal_get___u__1,
+               put = __cordl_internal_set___u__1))::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::Amazon::DynamoDBv2::Model::BatchGetItemResponse*> __u__1;
 
   /// @brief Field <>v__promiseOfValueOrEnd, offset 0x38, size 0x38
-  __declspec(
-      property(get = __cordl_internal_get___v__promiseOfValueOrEnd, put = __cordl_internal_set___v__promiseOfValueOrEnd))::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCore_1<bool>
-      __v__promiseOfValueOrEnd;
+  __declspec(property(get = __cordl_internal_get___v__promiseOfValueOrEnd,
+                      put = __cordl_internal_set___v__promiseOfValueOrEnd))::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCore_1<bool> __v__promiseOfValueOrEnd;
 
   /// @brief Field <>w__disposeMode, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get___w__disposeMode, put = __cordl_internal_set___w__disposeMode)) bool __w__disposeMode;
@@ -157,11 +156,10 @@ public:
   /// @brief Method MoveNext, addr 0x1055ab4, size 0x400, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  static inline ::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ -
-      PaginateAsync_d__6* New_ctor(int32_t __1__state);
+  static inline ::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6* New_ctor(int32_t __1__state);
 
   /// @brief Method SetStateMachine, addr 0x1055eb4, size 0x4, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine * stateMachine);
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Method System.Collections.Generic.IAsyncEnumerable<Amazon.DynamoDBv2.Model.BatchGetItemResponse>.GetAsyncEnumerator, addr 0x1055eb8, size 0xc8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IAsyncEnumerator_1<::Amazon::DynamoDBv2::Model::BatchGetItemResponse*>*
@@ -183,7 +181,7 @@ public:
   inline ::System::Threading::Tasks::Sources::ValueTaskSourceStatus System_Threading_Tasks_Sources_IValueTaskSource_GetStatus(int16_t token);
 
   /// @brief Method System.Threading.Tasks.Sources.IValueTaskSource.OnCompleted, addr 0x1056298, size 0x78, virtual true, abstract: false, final true
-  inline void System_Threading_Tasks_Sources_IValueTaskSource_OnCompleted(::System::Action_1<::System::Object*> * continuation, ::System::Object * state, int16_t token,
+  inline void System_Threading_Tasks_Sources_IValueTaskSource_OnCompleted(::System::Action_1<::System::Object*>* continuation, ::System::Object* state, int16_t token,
                                                                           ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags flags);
 
   /// @brief Method System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult, addr 0x10560c0, size 0x58, virtual true, abstract: false, final true
@@ -193,7 +191,7 @@ public:
   inline ::System::Threading::Tasks::Sources::ValueTaskSourceStatus System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__GetStatus(int16_t token);
 
   /// @brief Method System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.OnCompleted, addr 0x1056170, size 0x78, virtual true, abstract: false, final true
-  inline void System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__OnCompleted(::System::Action_1<::System::Object*> * continuation, ::System::Object * state, int16_t token,
+  inline void System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__OnCompleted(::System::Action_1<::System::Object*>* continuation, ::System::Object* state, int16_t token,
                                                                                           ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags flags);
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -243,11 +241,11 @@ public:
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr void __cordl_internal_set___2__current(::Amazon::DynamoDBv2::Model::BatchGetItemResponse * value);
+  constexpr void __cordl_internal_set___2__current(::Amazon::DynamoDBv2::Model::BatchGetItemResponse* value);
 
   constexpr void __cordl_internal_set___3__cancellationToken(::System::Threading::CancellationToken value);
 
-  constexpr void __cordl_internal_set___4__this(::Amazon::DynamoDBv2::Model::BatchGetItemPaginator * value);
+  constexpr void __cordl_internal_set___4__this(::Amazon::DynamoDBv2::Model::BatchGetItemPaginator* value);
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
@@ -259,7 +257,7 @@ public:
 
   constexpr void __cordl_internal_set___w__disposeMode(bool value);
 
-  constexpr void __cordl_internal_set__requestItems_5__2(::System::Collections::Generic::Dictionary_2<::StringW, ::Amazon::DynamoDBv2::Model::KeysAndAttributes*> * value);
+  constexpr void __cordl_internal_set__requestItems_5__2(::System::Collections::Generic::Dictionary_2<::StringW, ::Amazon::DynamoDBv2::Model::KeysAndAttributes*>* value);
 
   constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
 
@@ -289,20 +287,20 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6();
+  constexpr __BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BatchGetItemPaginator___Amazon-Runtime-IPaginator_Amazon-DynamoDBv2-Model-BatchGetItemResponse_-PaginateAsync_d__6", modifiers: "&&", def_value: None
+  // Ctor Parameters [CppParam { name: "", ty: "__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6", modifiers: "&&", def_value: None
   // }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ -
-      PaginateAsync_d__6(__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6&&) = delete;
+  __BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6(
+      __BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BatchGetItemPaginator___Amazon-Runtime-IPaginator_Amazon-DynamoDBv2-Model-BatchGetItemResponse_-PaginateAsync_d__6", modifiers: "const&", def_value:
+  // Ctor Parameters [CppParam { name: "", ty: "__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6", modifiers: "const&", def_value:
   // None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ -
-      PaginateAsync_d__6(__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6 const&) = delete;
+  __BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6(
+      __BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6 const&) = delete;
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -340,52 +338,44 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<
-                  ::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6, 0xb0>,
+static_assert(::cordl_internals::size_check_v<::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6, 0xb0>,
               "Size mismatch!");
 
-static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6, _____1__state) ==
-                  0x10,
+static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6, _____1__state) == 0x10,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6,
-                       _____t__builder) == 0x18,
+static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6, _____t__builder) == 0x18,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6,
+static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6,
                        _____v__promiseOfValueOrEnd) == 0x38,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6,
-                       _____2__current) == 0x70,
+static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6, _____2__current) == 0x70,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6,
-                       _____w__disposeMode) == 0x78,
+static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6, _____w__disposeMode) == 0x78,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6,
-                       _____l__initialThreadId) == 0x7c,
+static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6, _____l__initialThreadId) ==
+                  0x7c,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6, _____4__this) ==
-                  0x80,
+static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6, _____4__this) == 0x80,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6,
-                       ___cancellationToken) == 0x88,
+static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6, ___cancellationToken) == 0x88,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6,
-                       _____3__cancellationToken) == 0x90,
+static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6, _____3__cancellationToken) ==
+                  0x90,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6,
-                       ____requestItems_5__2) == 0x98,
+static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6, ____requestItems_5__2) ==
+                  0x98,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6, _____u__1) ==
-                  0xa0,
+static_assert(offsetof(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6, _____u__1) == 0xa0,
               "Offset mismatch!");
 
 } // namespace Amazon::DynamoDBv2::Model
@@ -397,8 +387,8 @@ namespace Amazon::DynamoDBv2::Model {
 class CORDL_TYPE BatchGetItemPaginator : public ::System::Object {
 public:
   // Declarations
-  using _Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6 =
-      ::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6;
+  using _Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6 =
+      ::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6;
 
   __declspec(property(get = get_Responses))::Amazon::Runtime::IPaginatedEnumerable_1<::Amazon::DynamoDBv2::Model::BatchGetItemResponse*>* Responses;
 
@@ -490,6 +480,6 @@ static_assert(offsetof(::Amazon::DynamoDBv2::Model::BatchGetItemPaginator, ____i
 } // namespace Amazon::DynamoDBv2::Model
 NEED_NO_BOX(::Amazon::DynamoDBv2::Model::BatchGetItemPaginator);
 DEFINE_IL2CPP_ARG_TYPE(::Amazon::DynamoDBv2::Model::BatchGetItemPaginator*, "Amazon.DynamoDBv2.Model", "BatchGetItemPaginator");
-NEED_NO_BOX(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6);
-DEFINE_IL2CPP_ARG_TYPE(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon - Runtime - IPaginator_Amazon - DynamoDBv2 - Model - BatchGetItemResponse_ - PaginateAsync_d__6*,
-                       "Amazon.DynamoDBv2.Model", "BatchGetItemPaginator/<Amazon-Runtime-IPaginator<Amazon-DynamoDBv2-Model-BatchGetItemResponse>-PaginateAsync>d__6");
+NEED_NO_BOX(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6);
+DEFINE_IL2CPP_ARG_TYPE(::Amazon::DynamoDBv2::Model::__BatchGetItemPaginator___Amazon_Runtime_IPaginator_Amazon_DynamoDBv2_Model_BatchGetItemResponse__PaginateAsync_d__6*, "Amazon.DynamoDBv2.Model",
+                       "BatchGetItemPaginator/<Amazon-Runtime-IPaginator<Amazon-DynamoDBv2-Model-BatchGetItemResponse>-PaginateAsync>d__6");

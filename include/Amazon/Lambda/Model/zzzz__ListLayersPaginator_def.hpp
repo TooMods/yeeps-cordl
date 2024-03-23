@@ -24,7 +24,7 @@ namespace Amazon::Lambda::Model {
 class ListLayersResponse;
 }
 namespace Amazon::Lambda::Model {
-class __ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8;
+class __ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8;
 }
 namespace Amazon::Lambda::Model {
 class __ListLayersPaginator____c;
@@ -88,14 +88,14 @@ namespace Amazon::Lambda::Model {
 class ListLayersPaginator;
 }
 namespace Amazon::Lambda::Model {
-class __ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8;
+class __ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8;
 }
 namespace Amazon::Lambda::Model {
 class __ListLayersPaginator____c;
 }
 // Write type traits
 MARK_REF_PTR_T(::Amazon::Lambda::Model::ListLayersPaginator);
-MARK_REF_PTR_T(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8);
+MARK_REF_PTR_T(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8);
 MARK_REF_PTR_T(::Amazon::Lambda::Model::__ListLayersPaginator____c);
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
@@ -155,11 +155,11 @@ static_assert(::cordl_internals::size_check_v<::Amazon::Lambda::Model::__ListLay
 namespace Amazon::Lambda::Model {
 // Is value type: false
 // CS Name: ::ListLayersPaginator::<Amazon-Runtime-IPaginator<Amazon-Lambda-Model-ListLayersResponse>-PaginateAsync>d__8*
-class CORDL_TYPE __ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8 : public ::System::Object {
+class CORDL_TYPE __ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListLayersResponse__get_Current))::Amazon::Lambda::Model::ListLayersResponse*
-      System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListLayersResponse__Current;
+  __declspec(property(get = System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListLayersResponse__get_Current))::Amazon::Lambda::Model::
+      ListLayersResponse* System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListLayersResponse__Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -181,13 +181,11 @@ public:
 
   /// @brief Field <>u__1, offset 0xa0, size 0x10
   __declspec(property(get = __cordl_internal_get___u__1,
-                      put = __cordl_internal_set___u__1))::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::Amazon::Lambda::Model::ListLayersResponse*>
-      __u__1;
+                      put = __cordl_internal_set___u__1))::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::Amazon::Lambda::Model::ListLayersResponse*> __u__1;
 
   /// @brief Field <>v__promiseOfValueOrEnd, offset 0x38, size 0x38
-  __declspec(
-      property(get = __cordl_internal_get___v__promiseOfValueOrEnd, put = __cordl_internal_set___v__promiseOfValueOrEnd))::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCore_1<bool>
-      __v__promiseOfValueOrEnd;
+  __declspec(property(get = __cordl_internal_get___v__promiseOfValueOrEnd,
+                      put = __cordl_internal_set___v__promiseOfValueOrEnd))::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCore_1<bool> __v__promiseOfValueOrEnd;
 
   /// @brief Field <>w__disposeMode, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get___w__disposeMode, put = __cordl_internal_set___w__disposeMode)) bool __w__disposeMode;
@@ -219,10 +217,10 @@ public:
   /// @brief Method MoveNext, addr 0x31122ec, size 0x3dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  static inline ::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8* New_ctor(int32_t __1__state);
+  static inline ::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8* New_ctor(int32_t __1__state);
 
   /// @brief Method SetStateMachine, addr 0x31126c8, size 0x4, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine * stateMachine);
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Method System.Collections.Generic.IAsyncEnumerable<Amazon.Lambda.Model.ListLayersResponse>.GetAsyncEnumerator, addr 0x31126cc, size 0xc8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IAsyncEnumerator_1<::Amazon::Lambda::Model::ListLayersResponse*>*
@@ -244,7 +242,7 @@ public:
   inline ::System::Threading::Tasks::Sources::ValueTaskSourceStatus System_Threading_Tasks_Sources_IValueTaskSource_GetStatus(int16_t token);
 
   /// @brief Method System.Threading.Tasks.Sources.IValueTaskSource.OnCompleted, addr 0x3112aac, size 0x78, virtual true, abstract: false, final true
-  inline void System_Threading_Tasks_Sources_IValueTaskSource_OnCompleted(::System::Action_1<::System::Object*> * continuation, ::System::Object * state, int16_t token,
+  inline void System_Threading_Tasks_Sources_IValueTaskSource_OnCompleted(::System::Action_1<::System::Object*>* continuation, ::System::Object* state, int16_t token,
                                                                           ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags flags);
 
   /// @brief Method System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult, addr 0x31128d4, size 0x58, virtual true, abstract: false, final true
@@ -254,7 +252,7 @@ public:
   inline ::System::Threading::Tasks::Sources::ValueTaskSourceStatus System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__GetStatus(int16_t token);
 
   /// @brief Method System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.OnCompleted, addr 0x3112984, size 0x78, virtual true, abstract: false, final true
-  inline void System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__OnCompleted(::System::Action_1<::System::Object*> * continuation, ::System::Object * state, int16_t token,
+  inline void System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__OnCompleted(::System::Action_1<::System::Object*>* continuation, ::System::Object* state, int16_t token,
                                                                                           ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags flags);
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -303,11 +301,11 @@ public:
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr void __cordl_internal_set___2__current(::Amazon::Lambda::Model::ListLayersResponse * value);
+  constexpr void __cordl_internal_set___2__current(::Amazon::Lambda::Model::ListLayersResponse* value);
 
   constexpr void __cordl_internal_set___3__cancellationToken(::System::Threading::CancellationToken value);
 
-  constexpr void __cordl_internal_set___4__this(::Amazon::Lambda::Model::ListLayersPaginator * value);
+  constexpr void __cordl_internal_set___4__this(::Amazon::Lambda::Model::ListLayersPaginator* value);
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
@@ -349,18 +347,18 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8();
+  constexpr __ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ListLayersPaginator___Amazon-Runtime-IPaginator_Amazon-Lambda-Model-ListLayersResponse_-PaginateAsync_d__8", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ -
-      PaginateAsync_d__8(__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8&&) = delete;
+  __ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8(
+      __ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ListLayersPaginator___Amazon-Runtime-IPaginator_Amazon-Lambda-Model-ListLayersResponse_-PaginateAsync_d__8", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ -
-      PaginateAsync_d__8(__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8 const&) = delete;
+  __ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8(
+      __ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8 const&) = delete;
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -398,44 +396,40 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8, 0xb0>,
+static_assert(::cordl_internals::size_check_v<::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8, 0xb0>,
               "Size mismatch!");
 
-static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8, _____1__state) == 0x10,
+static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8, _____1__state) == 0x10,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8, _____t__builder) == 0x18,
+static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8, _____t__builder) == 0x18,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8,
-                       _____v__promiseOfValueOrEnd) == 0x38,
+static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8, _____v__promiseOfValueOrEnd) == 0x38,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8, _____2__current) == 0x70,
+static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8, _____2__current) == 0x70,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8, _____w__disposeMode) == 0x78,
+static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8, _____w__disposeMode) == 0x78,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8, _____l__initialThreadId) ==
-                  0x7c,
+static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8, _____l__initialThreadId) == 0x7c,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8, _____4__this) == 0x80,
+static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8, _____4__this) == 0x80,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8, ___cancellationToken) == 0x88,
+static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8, ___cancellationToken) == 0x88,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8, _____3__cancellationToken) ==
-                  0x90,
+static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8, _____3__cancellationToken) == 0x90,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8, ____marker_5__2) == 0x98,
+static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8, ____marker_5__2) == 0x98,
               "Offset mismatch!");
 
-static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8, _____u__1) == 0xa0,
-              "Offset mismatch!");
+static_assert(offsetof(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8, _____u__1) == 0xa0, "Offset mismatch!");
 
 } // namespace Amazon::Lambda::Model
 // Type: Amazon.Lambda.Model::ListLayersPaginator
@@ -446,8 +440,8 @@ namespace Amazon::Lambda::Model {
 class CORDL_TYPE ListLayersPaginator : public ::System::Object {
 public:
   // Declarations
-  using _Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8 =
-      ::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8;
+  using _Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8 =
+      ::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8;
 
   using __c = ::Amazon::Lambda::Model::__ListLayersPaginator____c;
 
@@ -546,8 +540,8 @@ static_assert(offsetof(::Amazon::Lambda::Model::ListLayersPaginator, ____isPagin
 } // namespace Amazon::Lambda::Model
 NEED_NO_BOX(::Amazon::Lambda::Model::ListLayersPaginator);
 DEFINE_IL2CPP_ARG_TYPE(::Amazon::Lambda::Model::ListLayersPaginator*, "Amazon.Lambda.Model", "ListLayersPaginator");
-NEED_NO_BOX(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8);
-DEFINE_IL2CPP_ARG_TYPE(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListLayersResponse_ - PaginateAsync_d__8*, "Amazon.Lambda.Model",
+NEED_NO_BOX(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8);
+DEFINE_IL2CPP_ARG_TYPE(::Amazon::Lambda::Model::__ListLayersPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListLayersResponse__PaginateAsync_d__8*, "Amazon.Lambda.Model",
                        "ListLayersPaginator/<Amazon-Runtime-IPaginator<Amazon-Lambda-Model-ListLayersResponse>-PaginateAsync>d__8");
 NEED_NO_BOX(::Amazon::Lambda::Model::__ListLayersPaginator____c);
 DEFINE_IL2CPP_ARG_TYPE(::Amazon::Lambda::Model::__ListLayersPaginator____c*, "Amazon.Lambda.Model", "ListLayersPaginator/<>c");

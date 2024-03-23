@@ -100,182 +100,181 @@ Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator____c::_get_Fu
 // Ctor Parameters []
 constexpr ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator____c::__ListFunctionsByCodeSigningConfigPaginator____c() {}
 //  Writing Method size for method:
-//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon-Runtime-IPaginator_Amazon-Lambda-Model-ListFunctionsByCodeSigningConfigResponse_-PaginateAsync_d__8._ctor
+//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                        Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::*)(int32_t)>(
-    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (
+    ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::*)(int32_t)>(
+    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::_ctor)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x31109d0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                           Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                    ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+        ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method:
-//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon-Runtime-IPaginator_Amazon-Lambda-Model-ListFunctionsByCodeSigningConfigResponse_-PaginateAsync_d__8.MoveNext
+//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                        Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::*)()>(
-    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (
+    ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::*)()>(
+    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x3dc;
   constexpr static std::size_t addrs = 0x3110aac;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                           Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                    "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+        "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method:
-//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon-Runtime-IPaginator_Amazon-Lambda-Model-ListFunctionsByCodeSigningConfigResponse_-PaginateAsync_d__8.SetStateMachine
+//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                        Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-                                                               ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (
+    ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+        SetStateMachine)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x3110e88;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                           Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                    "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+        "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method:
-//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon-Runtime-IPaginator_Amazon-Lambda-Model-ListFunctionsByCodeSigningConfigResponse_-PaginateAsync_d__8.System_Collections_Generic_IAsyncEnumerable_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__GetAsyncEnumerator
+//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8.System_Collections_Generic_IAsyncEnumerable_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__GetAsyncEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IAsyncEnumerator_1<
-    ::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>* (::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-                                                                          ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::*)(::System::Threading::CancellationToken)>(
-    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::System_Collections_Generic_IAsyncEnumerable_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__GetAsyncEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Collections::Generic::IAsyncEnumerator_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>* (
+        ::Amazon::Lambda::Model::
+            __ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::*)(::System::Threading::
+                                                                                                                                                                             CancellationToken)>(
+        &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+            System_Collections_Generic_IAsyncEnumerable_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__GetAsyncEnumerator)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x3110e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-                                                               ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
         "System.Collections.Generic.IAsyncEnumerable<Amazon.Lambda.Model.ListFunctionsByCodeSigningConfigResponse>.GetAsyncEnumerator", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method:
-//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon-Runtime-IPaginator_Amazon-Lambda-Model-ListFunctionsByCodeSigningConfigResponse_-PaginateAsync_d__8.System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__MoveNextAsync
+//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8.System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__MoveNextAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::ValueTask_1<bool> (::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-                                                               ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::*)()>(
-        &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-        PaginateAsync_d__8::System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__MoveNextAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask_1<bool> (
+    ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::*)()>(
+    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+        System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__MoveNextAsync)> {
   constexpr static std::size_t size = 0x138;
   constexpr static std::size_t addrs = 0x3110f54;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                           Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                    "System.Collections.Generic.IAsyncEnumerator<Amazon.Lambda.Model.ListFunctionsByCodeSigningConfigResponse>.MoveNextAsync", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+        "System.Collections.Generic.IAsyncEnumerator<Amazon.Lambda.Model.ListFunctionsByCodeSigningConfigResponse>.MoveNextAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method:
-//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon-Runtime-IPaginator_Amazon-Lambda-Model-ListFunctionsByCodeSigningConfigResponse_-PaginateAsync_d__8.System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__get_Current
+//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8.System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse* (::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                    Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::*)()>(
-        &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-        PaginateAsync_d__8::System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse* (
+    ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::*)()>(
+    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+        System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__get_Current)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x311108c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                           Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                    "System.Collections.Generic.IAsyncEnumerator<Amazon.Lambda.Model.ListFunctionsByCodeSigningConfigResponse>.get_Current", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+        "System.Collections.Generic.IAsyncEnumerator<Amazon.Lambda.Model.ListFunctionsByCodeSigningConfigResponse>.get_Current", std::span<Il2CppClass const* const, 0>(),
+        ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method:
-//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon-Runtime-IPaginator_Amazon-Lambda-Model-ListFunctionsByCodeSigningConfigResponse_-PaginateAsync_d__8.System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__GetResult
+//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8.System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__GetResult
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                        Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::*)(int16_t)>(
-    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__GetResult)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (
+    ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::*)(int16_t)>(
+    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+        System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__GetResult)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x3111094;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                           Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                    "System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+        "System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method:
-//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon-Runtime-IPaginator_Amazon-Lambda-Model-ListFunctionsByCodeSigningConfigResponse_-PaginateAsync_d__8.System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__GetStatus
+//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8.System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__GetStatus
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Sources::ValueTaskSourceStatus (
-    ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::*)(int16_t)>(&::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-                                     ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__GetStatus)> {
+    ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::*)(int16_t)>(
+    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+        System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__GetStatus)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x31110ec;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                           Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                    "System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetStatus", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+        "System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetStatus", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method:
-//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon-Runtime-IPaginator_Amazon-Lambda-Model-ListFunctionsByCodeSigningConfigResponse_-PaginateAsync_d__8.System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__OnCompleted
+//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8.System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__OnCompleted
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-                      PaginateAsync_d__8::*)(::System::Action_1<::System::Object*>*, ::System::Object*, int16_t, ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags)>(
-        &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-        PaginateAsync_d__8::System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__OnCompleted)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (
+    ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::*)(
+    ::System::Action_1<::System::Object*>*, ::System::Object*, int16_t, ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags)>(
+    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+        System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__OnCompleted)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x3111144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-                                                               ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
         "System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.OnCompleted", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::System::Object*>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get(),
@@ -284,61 +283,61 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 //  Writing Method size for method:
-//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon-Runtime-IPaginator_Amazon-Lambda-Model-ListFunctionsByCodeSigningConfigResponse_-PaginateAsync_d__8.System_Threading_Tasks_Sources_IValueTaskSource_GetResult
+//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8.System_Threading_Tasks_Sources_IValueTaskSource_GetResult
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                        Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::*)(int16_t)>(
-    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::System_Threading_Tasks_Sources_IValueTaskSource_GetResult)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (
+    ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::*)(int16_t)>(
+    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+        System_Threading_Tasks_Sources_IValueTaskSource_GetResult)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x31111bc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                           Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                    "System.Threading.Tasks.Sources.IValueTaskSource.GetResult", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+        "System.Threading.Tasks.Sources.IValueTaskSource.GetResult", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method:
-//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon-Runtime-IPaginator_Amazon-Lambda-Model-ListFunctionsByCodeSigningConfigResponse_-PaginateAsync_d__8.System_Threading_Tasks_Sources_IValueTaskSource_GetStatus
+//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8.System_Threading_Tasks_Sources_IValueTaskSource_GetStatus
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Sources::ValueTaskSourceStatus (
-    ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::*)(int16_t)>(&::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-                                     ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::System_Threading_Tasks_Sources_IValueTaskSource_GetStatus)> {
+    ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::*)(int16_t)>(
+    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+        System_Threading_Tasks_Sources_IValueTaskSource_GetStatus)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x3111214;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                           Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                    "System.Threading.Tasks.Sources.IValueTaskSource.GetStatus", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+        "System.Threading.Tasks.Sources.IValueTaskSource.GetStatus", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method:
-//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon-Runtime-IPaginator_Amazon-Lambda-Model-ListFunctionsByCodeSigningConfigResponse_-PaginateAsync_d__8.System_Threading_Tasks_Sources_IValueTaskSource_OnCompleted
+//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8.System_Threading_Tasks_Sources_IValueTaskSource_OnCompleted
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-                      PaginateAsync_d__8::*)(::System::Action_1<::System::Object*>*, ::System::Object*, int16_t, ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags)>(
-        &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-        PaginateAsync_d__8::System_Threading_Tasks_Sources_IValueTaskSource_OnCompleted)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (
+    ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::*)(
+    ::System::Action_1<::System::Object*>*, ::System::Object*, int16_t, ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags)>(
+    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+        System_Threading_Tasks_Sources_IValueTaskSource_OnCompleted)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x311126c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-                                                               ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
         "System.Threading.Tasks.Sources.IValueTaskSource.OnCompleted", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::System::Object*>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get(),
@@ -347,389 +346,401 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   }
 };
 //  Writing Method size for method:
-//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon-Runtime-IPaginator_Amazon-Lambda-Model-ListFunctionsByCodeSigningConfigResponse_-PaginateAsync_d__8.System_IAsyncDisposable_DisposeAsync
+//  ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8.System_IAsyncDisposable_DisposeAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask (
-    ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::*)()>(&::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-                              ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::System_IAsyncDisposable_DisposeAsync)> {
+    ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::*)()>(
+    &::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+        System_IAsyncDisposable_DisposeAsync)> {
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x31112e4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                           Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                    "System.IAsyncDisposable.DisposeAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+            ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+        "System.IAsyncDisposable.DisposeAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Collections::Generic::IAsyncEnumerable_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>"
-constexpr Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::operator ::System::Collections::Generic::IAsyncEnumerable_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>*() noexcept {
+constexpr Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::operator ::
+    System::Collections::Generic::IAsyncEnumerable_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>*() noexcept {
   return static_cast<::System::Collections::Generic::IAsyncEnumerable_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IAsyncEnumerable_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>"
 constexpr ::System::Collections::Generic::IAsyncEnumerable_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>*
-        Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon -
-    Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::i___System__Collections__Generic__IAsyncEnumerable_1___Amazon__Lambda__Model__ListFunctionsByCodeSigningConfigResponse__() noexcept {
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    i___System__Collections__Generic__IAsyncEnumerable_1___Amazon__Lambda__Model__ListFunctionsByCodeSigningConfigResponse__() noexcept {
   return static_cast<::System::Collections::Generic::IAsyncEnumerable_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IAsyncEnumerator_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>"
-constexpr Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::operator ::System::Collections::Generic::IAsyncEnumerator_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>*() noexcept {
+constexpr Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::operator ::
+    System::Collections::Generic::IAsyncEnumerator_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>*() noexcept {
   return static_cast<::System::Collections::Generic::IAsyncEnumerator_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IAsyncEnumerator_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>"
 constexpr ::System::Collections::Generic::IAsyncEnumerator_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>*
-        Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon -
-    Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::i___System__Collections__Generic__IAsyncEnumerator_1___Amazon__Lambda__Model__ListFunctionsByCodeSigningConfigResponse__() noexcept {
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    i___System__Collections__Generic__IAsyncEnumerator_1___Amazon__Lambda__Model__ListFunctionsByCodeSigningConfigResponse__() noexcept {
   return static_cast<::System::Collections::Generic::IAsyncEnumerator_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IAsyncDisposable"
-constexpr Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::operator ::System::IAsyncDisposable*() noexcept {
+constexpr Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::operator ::
+    System::IAsyncDisposable*() noexcept {
   return static_cast<::System::IAsyncDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IAsyncDisposable"
-constexpr ::System::IAsyncDisposable* Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-    ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::i___System__IAsyncDisposable() noexcept {
+constexpr ::System::IAsyncDisposable* Amazon::Lambda::Model::
+    __ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::i___System__IAsyncDisposable() noexcept {
   return static_cast<::System::IAsyncDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Threading::Tasks::Sources::IValueTaskSource_1<bool>"
-constexpr Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::operator ::System::Threading::Tasks::Sources::IValueTaskSource_1<bool>*() noexcept {
+constexpr Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::operator ::
+    System::Threading::Tasks::Sources::IValueTaskSource_1<bool>*() noexcept {
   return static_cast<::System::Threading::Tasks::Sources::IValueTaskSource_1<bool>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Threading::Tasks::Sources::IValueTaskSource_1<bool>"
-constexpr ::System::Threading::Tasks::Sources::IValueTaskSource_1<bool>* Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-    ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::i___System__Threading__Tasks__Sources__IValueTaskSource_1_bool_() noexcept {
+constexpr ::System::Threading::Tasks::Sources::IValueTaskSource_1<bool>*
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    i___System__Threading__Tasks__Sources__IValueTaskSource_1_bool_() noexcept {
   return static_cast<::System::Threading::Tasks::Sources::IValueTaskSource_1<bool>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Threading::Tasks::Sources::IValueTaskSource"
-constexpr Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::operator ::System::Threading::Tasks::Sources::IValueTaskSource*() noexcept {
+constexpr Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::operator ::
+    System::Threading::Tasks::Sources::IValueTaskSource*() noexcept {
   return static_cast<::System::Threading::Tasks::Sources::IValueTaskSource*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Threading::Tasks::Sources::IValueTaskSource"
-constexpr ::System::Threading::Tasks::Sources::IValueTaskSource* Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-    ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::i___System__Threading__Tasks__Sources__IValueTaskSource() noexcept {
+constexpr ::System::Threading::Tasks::Sources::IValueTaskSource*
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    i___System__Threading__Tasks__Sources__IValueTaskSource() noexcept {
   return static_cast<::System::Threading::Tasks::Sources::IValueTaskSource*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() noexcept {
+constexpr Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::operator ::
+    System::Runtime::CompilerServices::IAsyncStateMachine*() noexcept {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-    ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::i___System__Runtime__CompilerServices__IAsyncStateMachine() noexcept {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    i___System__Runtime__CompilerServices__IAsyncStateMachine() noexcept {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(this));
 }
-constexpr int32_t& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_get___1__state() {
+constexpr int32_t& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_get___1__state() const {
+constexpr int32_t const& Amazon::Lambda::Model::
+    __ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_set___1__state(int32_t value) {
+constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Runtime::CompilerServices::AsyncIteratorMethodBuilder& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-    ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::__cordl_internal_get___t__builder() {
+constexpr ::System::Runtime::CompilerServices::AsyncIteratorMethodBuilder& Amazon::Lambda::Model::
+    __ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::__cordl_internal_get___t__builder() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____t__builder;
 }
-constexpr ::System::Runtime::CompilerServices::AsyncIteratorMethodBuilder const& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda -
-    Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::__cordl_internal_get___t__builder() const {
+constexpr ::System::Runtime::CompilerServices::AsyncIteratorMethodBuilder const&
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_get___t__builder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____t__builder;
 }
-constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_set___t__builder(::System::Runtime::CompilerServices::AsyncIteratorMethodBuilder value) {
+constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_set___t__builder(::System::Runtime::CompilerServices::AsyncIteratorMethodBuilder value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____t__builder = value;
 }
-constexpr ::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCore_1<bool>& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-    Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::__cordl_internal_get___v__promiseOfValueOrEnd() {
+constexpr ::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCore_1<bool>&
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_get___v__promiseOfValueOrEnd() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____v__promiseOfValueOrEnd;
 }
-constexpr ::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCore_1<bool> const& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-    Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::__cordl_internal_get___v__promiseOfValueOrEnd() const {
+constexpr ::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCore_1<bool> const&
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_get___v__promiseOfValueOrEnd() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____v__promiseOfValueOrEnd;
 }
-constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_set___v__promiseOfValueOrEnd(::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCore_1<bool> value) {
+constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_set___v__promiseOfValueOrEnd(::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCore_1<bool> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____v__promiseOfValueOrEnd = value;
 }
-constexpr ::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda -
-    Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::__cordl_internal_get___2__current() {
+constexpr ::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*& Amazon::Lambda::Model::
+    __ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*> const& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon -
-    Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::__cordl_internal_get___2__current() const {
+constexpr ::cordl_internals::to_const_pointer<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*> const&
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_set___2__current(::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse* value) {
+constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_set___2__current(::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_get___w__disposeMode() {
+constexpr bool& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_get___w__disposeMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____w__disposeMode;
 }
-constexpr bool const& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_get___w__disposeMode() const {
+constexpr bool const& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_get___w__disposeMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____w__disposeMode;
 }
-constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_set___w__disposeMode(bool value) {
+constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_set___w__disposeMode(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____w__disposeMode = value;
 }
-constexpr int32_t& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_get___l__initialThreadId() {
+constexpr int32_t& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr int32_t const& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_get___l__initialThreadId() const {
+constexpr int32_t const&
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_set___l__initialThreadId(int32_t value) {
+constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
-constexpr ::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigPaginator*& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda -
-    Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::__cordl_internal_get___4__this() {
+constexpr ::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigPaginator*& Amazon::Lambda::Model::
+    __ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigPaginator*> const& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon -
-    Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::__cordl_internal_get___4__this() const {
+constexpr ::cordl_internals::to_const_pointer<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigPaginator*> const& Amazon::Lambda::Model::
+    __ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_set___4__this(::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigPaginator* value) {
+constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_set___4__this(::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigPaginator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Threading::CancellationToken& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-    ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::__cordl_internal_get_cancellationToken() {
+constexpr ::System::Threading::CancellationToken& Amazon::Lambda::Model::
+    __ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::__cordl_internal_get_cancellationToken() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cancellationToken;
 }
-constexpr ::System::Threading::CancellationToken const& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-    ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::__cordl_internal_get_cancellationToken() const {
+constexpr ::System::Threading::CancellationToken const&
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_get_cancellationToken() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cancellationToken;
 }
-constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value) {
+constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cancellationToken = value;
 }
-constexpr ::System::Threading::CancellationToken& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-    ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::__cordl_internal_get___3__cancellationToken() {
+constexpr ::System::Threading::CancellationToken&
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_get___3__cancellationToken() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__cancellationToken;
 }
-constexpr ::System::Threading::CancellationToken const& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-    ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::__cordl_internal_get___3__cancellationToken() const {
+constexpr ::System::Threading::CancellationToken const&
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_get___3__cancellationToken() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__cancellationToken;
 }
-constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_set___3__cancellationToken(::System::Threading::CancellationToken value) {
+constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_set___3__cancellationToken(::System::Threading::CancellationToken value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____3__cancellationToken = value;
 }
-constexpr ::StringW& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_get__marker_5__2() {
+constexpr ::StringW& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_get__marker_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____marker_5__2;
 }
-constexpr ::StringW const& Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_get__marker_5__2() const {
+constexpr ::StringW const&
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_get__marker_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____marker_5__2;
 }
-constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_set__marker_5__2(::StringW value) {
+constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_set__marker_5__2(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____marker_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>&
-        Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon -
-    Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::__cordl_internal_get___u__1() {
+constexpr ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>& Amazon::Lambda::Model::
+    __ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::__cordl_internal_get___u__1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____u__1;
 }
-constexpr ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*> const&
-        Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon -
-    Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::__cordl_internal_get___u__1() const {
+constexpr ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*> const& Amazon::Lambda::Model::
+    __ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::__cordl_internal_get___u__1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____u__1;
 }
-constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__cordl_internal_set___u__1(
-        ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*> value) {
+constexpr void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __cordl_internal_set___u__1(::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____u__1 = value;
 }
-inline ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8* Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-                                                  ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>(__1__state));
+inline ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::New_ctor(
+    int32_t __1__state) {
+  return THROW_UNLESS(
+      ::il2cpp_utils::NewSpecific<
+          ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>(
+          __1__state));
 }
-inline void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::_ctor(int32_t __1__state) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                         Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+inline void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::_ctor(
+    int32_t __1__state) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+      ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                         Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+      "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                         Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                  "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+inline void
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::SetStateMachine(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+      "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 inline ::System::Collections::Generic::IAsyncEnumerator_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>*
-        Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon -
-    Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::System_Collections_Generic_IAsyncEnumerable_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__GetAsyncEnumerator(
-        ::System::Threading::CancellationToken cancellationToken) {
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    System_Collections_Generic_IAsyncEnumerable_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__GetAsyncEnumerator(::System::Threading::CancellationToken cancellationToken) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-                                                             ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
       "System.Collections.Generic.IAsyncEnumerable<Amazon.Lambda.Model.ListFunctionsByCodeSigningConfigResponse>.GetAsyncEnumerator", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IAsyncEnumerator_1<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*>*, false>(this, ___internal_method,
                                                                                                                                                                              cancellationToken);
 }
-inline ::System::Threading::Tasks::ValueTask_1<bool> Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-    ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__MoveNextAsync() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                         Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                  "System.Collections.Generic.IAsyncEnumerator<Amazon.Lambda.Model.ListFunctionsByCodeSigningConfigResponse>.MoveNextAsync", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::span<Il2CppType const* const, 0>())));
+inline ::System::Threading::Tasks::ValueTask_1<bool>
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__MoveNextAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+      "System.Collections.Generic.IAsyncEnumerator<Amazon.Lambda.Model.ListFunctionsByCodeSigningConfigResponse>.MoveNextAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::ValueTask_1<bool>, false>(this, ___internal_method);
 }
-inline ::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse* Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-    ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                         Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                  "System.Collections.Generic.IAsyncEnumerator<Amazon.Lambda.Model.ListFunctionsByCodeSigningConfigResponse>.get_Current", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::span<Il2CppType const* const, 0>())));
+inline ::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    System_Collections_Generic_IAsyncEnumerator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+      "System.Collections.Generic.IAsyncEnumerator<Amazon.Lambda.Model.ListFunctionsByCodeSigningConfigResponse>.get_Current", std::span<Il2CppClass const* const, 0>(),
+      ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigResponse*, false>(this, ___internal_method);
 }
-inline bool Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__GetResult(int16_t token) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                         Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                  "System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+inline bool Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__GetResult(int16_t token) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+      "System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, token);
 }
-inline ::System::Threading::Tasks::Sources::ValueTaskSourceStatus Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-    ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__GetStatus(int16_t token) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                         Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                  "System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetStatus", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+inline ::System::Threading::Tasks::Sources::ValueTaskSourceStatus
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__GetStatus(int16_t token) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+      "System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetStatus", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Sources::ValueTaskSourceStatus, false>(this, ___internal_method, token);
 }
-inline void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__OnCompleted(::System::Action_1<::System::Object*>* continuation, ::System::Object* state, int16_t token,
-                                                                                                    ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags flags) {
+inline void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    System_Threading_Tasks_Sources_IValueTaskSource_System_Boolean__OnCompleted(::System::Action_1<::System::Object*>* continuation, ::System::Object* state, int16_t token,
+                                                                                ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags flags) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-                                                             ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
       "System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.OnCompleted", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::System::Object*>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, continuation, state, token, flags);
 }
-inline void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::System_Threading_Tasks_Sources_IValueTaskSource_GetResult(int16_t token) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                         Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                  "System.Threading.Tasks.Sources.IValueTaskSource.GetResult", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+inline void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    System_Threading_Tasks_Sources_IValueTaskSource_GetResult(int16_t token) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+      "System.Threading.Tasks.Sources.IValueTaskSource.GetResult", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, token);
 }
-inline ::System::Threading::Tasks::Sources::ValueTaskSourceStatus Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-    ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::System_Threading_Tasks_Sources_IValueTaskSource_GetStatus(int16_t token) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                         Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                  "System.Threading.Tasks.Sources.IValueTaskSource.GetStatus", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+inline ::System::Threading::Tasks::Sources::ValueTaskSourceStatus
+Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    System_Threading_Tasks_Sources_IValueTaskSource_GetStatus(int16_t token) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+      "System.Threading.Tasks.Sources.IValueTaskSource.GetStatus", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Sources::ValueTaskSourceStatus, false>(this, ___internal_method, token);
 }
-inline void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::System_Threading_Tasks_Sources_IValueTaskSource_OnCompleted(::System::Action_1<::System::Object*>* continuation, ::System::Object* state, int16_t token,
-                                                                                    ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags flags) {
+inline void Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    System_Threading_Tasks_Sources_IValueTaskSource_OnCompleted(::System::Action_1<::System::Object*>* continuation, ::System::Object* state, int16_t token,
+                                                                ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags flags) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-                                                             ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
       "System.Threading.Tasks.Sources.IValueTaskSource.OnCompleted", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::System::Object*>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, continuation, state, token, flags);
 }
-inline ::System::Threading::Tasks::ValueTask Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model -
-    ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8::System_IAsyncDisposable_DisposeAsync() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon -
-                                                                                         Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8*>::get(),
-                                  "System.IAsyncDisposable.DisposeAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline ::System::Threading::Tasks::ValueTask Amazon::Lambda::Model::
+    __ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::System_IAsyncDisposable_DisposeAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
+          ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8*>::get(),
+      "System.IAsyncDisposable.DisposeAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::ValueTask, false>(this, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ -
-    PaginateAsync_d__8::__ListFunctionsByCodeSigningConfigPaginator___Amazon - Runtime - IPaginator_Amazon - Lambda - Model - ListFunctionsByCodeSigningConfigResponse_ - PaginateAsync_d__8() {}
+constexpr ::Amazon::Lambda::Model::__ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8::
+    __ListFunctionsByCodeSigningConfigPaginator___Amazon_Runtime_IPaginator_Amazon_Lambda_Model_ListFunctionsByCodeSigningConfigResponse__PaginateAsync_d__8() {}
 //  Writing Method size for method: ::Amazon::Lambda::Model::ListFunctionsByCodeSigningConfigPaginator.get_Responses
 template <>
 

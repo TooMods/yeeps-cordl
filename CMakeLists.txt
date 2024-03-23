@@ -51,6 +51,7 @@ foreach(file_path IN LISTS namespace_headers)
     # target_precompile_headers(${CMAKE_PROJECT_NAME} PRIVATE "${CMAKE_CURRENT_LIST_DIR}/include/${file_path}")
 endforeach()
 
+target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE VERSION="${PACKAGE_VERSION}")
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_LIST_DIR}/include)
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_LIST_DIR}/extern/includes)
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE SYSTEM ${CMAKE_CURRENT_LIST_DIR}/extern/includes/libil2cpp/il2cpp/libil2cpp)
